@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Острів Фідонісі</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f7fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Black_Sea.jpg') center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: #005b96;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd166;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #005b96;
+      margin-bottom: 15px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      background: #003f63;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #0077b6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #023e8a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Острів Фідонісі</h1>
+    <p>Мальовничий острів у Чорному морі з цікавою історією</p>
+  </header>
+
+  <nav>
+    <a href="#about">Про острів</a>
+    <a href="#history">Історія</a>
+    <a href="#nature">Природа</a>
+    <a href="#tourism">Туризм</a>
+    <a href="#facts">Цікаві факти</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#contact">Контакти</a>
+  </nav>
+
+  <section id="about">
+    <h2>Про острів</h2>
+    <p>
+      Фідонісі — невеликий острів у Чорному морі, який відомий своєю природою та історичними подіями.
+      Назва походить із грецької мови та означає «Зміїний острів». Острів знаходиться неподалік узбережжя України.
+    </p>
+    <a class="btn" href="#history">Дізнатися більше</a>
+  </section>
+
+  <section id="history">
+    <h2>Історія</h2>
+    <p>
+      Острів Фідонісі став відомим після морської битви 1788 року між флотами Російської та Османської імперій.
+      Битва біля Фідонісі була важливою подією в історії Чорноморського регіону.
+    </p>
+    <p>
+      У XVIII столітті Чорне море було ареною численних морських битв. Саме біля острова Фідонісі
+      відбулося перше велике зіткнення молодого Чорноморського флоту. Ця подія стала важливою частиною
+      історії мореплавства та військової справи.
+    </p>
+    <p>
+      Сьогодні острів привертає увагу істориків, туристів та дослідників природи.
+    </p>
+  </section>
+
+  <section id="tourism">
+    <h2>Туризм</h2>
+    <p>
+      Острів Фідонісі приваблює туристів своїми морськими пейзажами та атмосферою дикої природи.
+      Любителі подорожей можуть насолодитися видом на Чорне море, фотографувати красиві скелі
+      та спостерігати за птахами.
+    </p>
+    <p>
+      Найкращий час для відвідування — літо та початок осені, коли море тепле, а погода сонячна.
+    </p>
+  </section>
+
+  <section id="facts">
+    <h2>Цікаві факти</h2>
+    <ul style="padding-left:20px; margin-top:10px;">
+      <li>Назва «Фідонісі» у перекладі означає «Зміїний острів».</li>
+      <li>Острів розташований у Чорному морі неподалік узбережжя України.</li>
+      <li>Біля острова проходили важливі морські маршрути.</li>
+      <li>Фідонісі має унікальні природні ландшафти.</li>
+      <li>Місце популярне серед фотографів та любителів природи.</li>
+    </ul>
+  </section>
+
+  <section id="nature">
+    <h2>Природа острова</h2>
+    <p>
+      Острів має скелясті береги, чисту морську воду та різноманітний тваринний світ.
+      Тут можна побачити морських птахів і красиві краєвиди Чорного моря.
+    </p>
+  </section>
+
+  <section id="nature">
+    <h2>Природа острова</h2>
+    <p>
+      Острів має скелясті береги, чисту морську воду та різноманітний тваринний світ.
+      Тут можна побачити морських птахів і красиві краєвиди Чорного моря.
+    </p>
+    <p>
+      Морське повітря, хвилі та тиша створюють особливу атмосферу для відпочинку.
+      Флора та фауна острова залишаються важливою частиною екосистеми Чорного моря.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Галерея</h2>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Snake_Island.jpg" alt="Острів Фідонісі">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Black_Sea_coast.jpg" alt="Берег Чорного моря">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Sea_view.jpg" alt="Море біля острова">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Контакти</h2>
+    <p>
+      Дякуємо за перегляд сайту про острів Фідонісі.
+      Ви можете використовувати цей сайт як навчальний проєкт з HTML та CSS.
+    </p>
+    <a class="btn" href="#top">Повернутися вгору</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Сайт про острів Фідонісі | Створено на HTML та CSS</p>
+    <p>Розроблено для навчального проєкту</p>
+  </footer>
+
+</body>
+</html>
